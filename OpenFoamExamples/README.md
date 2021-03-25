@@ -22,9 +22,9 @@ I found examples for Formula 1 aerodynamics but they were for a different CFD so
 I first made a new directory inside the OpenFOAM-8 repo just to keep everything in one place titled "OpenFoamExamples" and in that directory there is a README file explaining the project and an sb file titled "flame.sb" which will copy over a directory from the repo and will run the example. 
 
 # References
-Github page for OpenFoam version 8: https://github.com/OpenFOAM/OpenFOAM-8
-Github page for the Third Party example scripts: https://github.com/OpenFOAM/ThirdParty-8
-OpenFOAM website giving more instructions: https://openfoam.org/download/source/
+-Github page for OpenFoam version 8: https://github.com/OpenFOAM/OpenFOAM-8
+-Github page for the Third Party example scripts: https://github.com/OpenFOAM/ThirdParty-8
+-OpenFOAM website giving more instructions: https://openfoam.org/download/source/
 
 
 
