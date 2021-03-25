@@ -12,14 +12,14 @@ OpenFoam is free open source C++ based software used for Computational Fluid Dyn
     - source (Your home directory)/OpenFOAM-8/etc/bashrc (If using bash)
     - source (Your home directory)/OpenFOAM-8/etc/cshrc  (If using tcsh)
 
-3. To compile the software you just have to use the command:
+3. After setting the enviornment compile the software using use the command:
     - ./Allwmake to compile in serial (Takes several hours, not recomended)
     - ./Allwmake -j to compile in parallel with all available cores and hyperthreads
 
 # Example Code
 I found examples for Formula 1 aerodynamics but they were for a different CFD software called Ansys, I tried to get the code to work for OpenFOAM but it was challenging converting to ascii and I ran out of time. Luckily these repos have examples you can run.
 
-After compiling the software you should be able to run the example by executing the "flame.sb" file. This file is essentialy grabbing a directory inside the OpenFOAM-8 repo and copying it over. It then will navigate into the directories needed for the example and run it. 
+After compiling the software you should be able to run the example by executing the "flame.sb" file. This file is essentialy grabbing a directory deep inside the OpenFOAM-8 repo and copying it over. It then will navigate into the directories needed for the example and run it. 
 
 # References
 -Github page for OpenFoam version 8: https://github.com/OpenFOAM/OpenFOAM-8
