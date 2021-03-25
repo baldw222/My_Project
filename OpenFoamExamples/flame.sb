@@ -3,6 +3,7 @@
 #SBATCH -c=5
 #SBATCH --ntasks=1
 #SBATCH --time=00:10:00
+mkdir $FOAM_RUN
 cd $FOAM_RUN
 cp -r $FOAM_TUTORIALS/combustion/PDRFoam/flamePropagationWithObstacles .
 cd flamePropagationWithObstacles
