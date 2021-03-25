@@ -23,7 +23,9 @@ After compiling the software you should be able to run the example by executing 
 
 # References
 -Github page for OpenFoam version 8: https://github.com/OpenFOAM/OpenFOAM-8
+
 -Github page for the Third Party example scripts: https://github.com/OpenFOAM/ThirdParty-8
+
 -OpenFOAM website giving more instructions: https://openfoam.org/download/source/
 
 
