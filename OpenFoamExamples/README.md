@@ -6,7 +6,7 @@ OpenFoam is free open source C++ based software used for Computational Fluid Dyn
 1. clone the repo for both the OpenFoam software and the third party example scripts using commands:
     - git clone https://github.com/OpenFOAM/OpenFOAM-8.git
     - git clone https://github.com/OpenFOAM/ThirdParty-8.git 
-    - I have also added a install script titled "install.sb" in the main repo, this will create two new directories.
+    - I have also added a install script titled "install.sb" in this directory, this command should create two new directories.
 
 2. Navigate into the OpenFOAM-8 directory and source and set the enviornment variables using:
     - source (Your home directory)/OpenFOAM-8/etc/bashrc (If using bash)
@@ -19,7 +19,7 @@ OpenFoam is free open source C++ based software used for Computational Fluid Dyn
 # Example Code
 I found examples for Formula 1 aerodynamics but they were for a different CFD software called Ansys, I tried to get the code to work for OpenFOAM but it was challenging converting to ascii and I ran out of time. Luckily these repos have examples you can run.
 
-I first made a new directory inside the OpenFOAM-8 repo just to keep everything in one place titled "OpenFoamExamples" and in that directory there is a README file explaining the project and an sb file titled "flame.sb" which will copy over a directory from the repo and will run the example. 
+After compiling the software you should be able to run the example by executing the "flame.sb" file. This file is essentialy grabbing a directory inside the OpenFOAM-8 repo and copying it over. It then will navigate into the directories needed for the example and run it. 
 
 # References
 -Github page for OpenFoam version 8: https://github.com/OpenFOAM/OpenFOAM-8
