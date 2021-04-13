@@ -1,12 +1,14 @@
 #!/bin/bash
-#SBATCH --nodes=5
-#SBATCH -c=5
-#SBATCH --ntasks=1
+#SBATCH -N 5
+#SBATCH -c 5
 #SBATCH --time=00:10:00
-mkdir $FOAM_RUN
-cd $FOAM_RUN
+
+source ./OpenFOAM-8/etc/bashrc
+
 cp -r $FOAM_TUTORIALS/combustion/PDRFoam/flamePropagationWithObstacles .
 cd flamePropagationWithObstacles
-./Allclean
-./Allrun
-topoSet
+
+srun ./Allclean
+srun ./Allrun
+srun topoSet
+
